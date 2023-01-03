@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FF9F9F;
+}
+
+.container {
+    width: 800px;
+    height: 85vh;
+    background-color: #FCDDB0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.up fieldset form{
+    display: flex;
+    flex-direction: column;
+}

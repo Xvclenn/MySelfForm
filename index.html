@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="up">
+
+            <fieldset>
+                <legend>Ерөнхий Мэдээлэл</legend>
+                <form action="">
+                    <label for="name">
+                        Нэр
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <label for="mail">
+                        E-mail
+                        <input type="text" name="mail" id="mail">
+                    </label>
+                    <label for="age">
+                        Нас
+                        <input type="number" name="age" id="age" max="99" min="14">
+                    </label>
+                </form>
+            </fieldset>
+
+        </div>
+
+        <div class="down">
+
+            <fieldset>
+                <legend>Social Media</legend>
+                <label for="time">
+                    ... 
+                    <select name="time" id="time">
+                        <option value="1">1-2</option>
+                        <option value="2">2-3</option>
+                        <option value="3">3-4</option>
+                    </select>
+                </label>
+                <p>...</p>
+                <label for="yes">
+                    <input type="radio" name="no" id="yes">
+                    Online
+                </label><br>
+                <label for="no">
+                    <input type="radio" name="no" id="no">
+                    Delguur oroh
+                </label>
+                <p>...</p>
+                <label for="fb">
+                    <input type="checkbox" name="fb" id="fb">
+                    Facebook
+                </label><br>
+                <label for="ig">
+                    <input type="checkbox" name="ig" id="ig">
+                    Instagram
+                </label><br>
+                <label for="tw">
+                    <input type="checkbox" name="tw" id="tw">
+                    Twitter
+                </label><br>
+
+            </fieldset>
+
+        </div>
+
+        <div class="comment">
+            <h4>Comment</h4>
+            <textarea name="message" id="message"></textarea><br>
+
+            <input type="submit" name="submit" id="submit">
+        </div>
+
+    </div>
+
+</body>
+</html>
